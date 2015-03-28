@@ -249,7 +249,7 @@ namespace Fiora
                 k = 0;
             }
         }
-        public static void Game_OnGameUpdate(EventArgs args)
+        public static void Game.OnUpdate(EventArgs args)
         {
             if (Player.IsDead)
                 return;
